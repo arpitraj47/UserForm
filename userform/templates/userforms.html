@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>User Form</title>
+</head>
+<body>
+    <h1>User Form</h1>
+    <form method="post" action="http://127.0.0.1:8000/user-form/form/" >
+        <label for="na"><b>Name</b></label>
+        <input id="na" type="text" name="Nm" required>
+        <br>
+        <br>
+        <label for="dob"><b>DOB</b></label>
+        <input id="dob" type="date" name="Date" onchange="ageCalculator()"  required>
+        <br>
+        <br>
+        <label for="emai"><b>Email</b></label>
+        <input id="emai" type="email" name="mail" required>
+        <br>
+        <br>
+        <label for="number"><b>Phone Number</b></label>
+        <input id="number" type="number" name="Phone" >
+        <br>
+        <br>
+        <input type="submit">
+
+
+    </form>
+
+
+</body>
+</html>
